@@ -2,6 +2,7 @@
 #include<iostream>
 #include<algorithm>
 using namespace std;
+//此题考BFS，DFS，或者并查集
 //Using adjacency matrix or table(vector);
 const int INF=100000000;
 const int MAX=1000;
