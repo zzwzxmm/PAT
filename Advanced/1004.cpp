@@ -61,5 +61,7 @@ int main(){
         printf("%d ",cnt[i]);
     }
     printf("%d",cnt[maxlevel]);
+ // printf("%d%c",cnt[i],(i==maxlevel)?'\n':' ');
+ // NOTE!!! '\n' not "\n", char type,not string.
     return 0;
 }
