@@ -39,6 +39,7 @@ int main(){
     for(int i=0;i<=3;i++){
         flag=i;
         qsort(s,n,sizeof(s[0]),cmp);
+//      sort(s,s+n,cmp);
         s[0].rank[flag]=1;
         for(int j=1;j<n;j++){
             s[j].rank[flag]=j+1;
